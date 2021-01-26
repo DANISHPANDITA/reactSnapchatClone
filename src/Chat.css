@@ -1,0 +1,16 @@
+.chatScreen {
+  height: 400px;
+  background-color: white;
+  width: 250px;
+  margin-left: 40%;
+  border-radius: 15px;
+}
+.chatScreen img {
+  border-radius: 15px;
+  height: 100%;
+}
+.chatTimer {
+  position: absolute;
+  right: 44%;
+  margin-top: 10px;
+}

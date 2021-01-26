@@ -1,0 +1,58 @@
+.SnapRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+.SnapRow:hover {
+  background-color: #f0eeee;
+  cursor: pointer;
+}
+.Snap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.1vh;
+}
+.snapRowAvatar {
+  height: 25px !important;
+  width: 25px !important;
+  margin-top: 1.1vh;
+  margin-left: 0.5vw;
+  margin-right: 0.4vw;
+}
+.details h5 {
+  margin-top: 1.1vh;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.details p {
+  font-size: 12px;
+  margin: 0;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+}
+.newSnapSymbol {
+  height: 18px !important;
+  width: 18px !important;
+  color: rgb(255, 45, 45);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

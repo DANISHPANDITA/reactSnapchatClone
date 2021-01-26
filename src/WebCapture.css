@@ -1,0 +1,15 @@
+.CaptureButton {
+  position: absolute;
+  margin-left: -9.8%;
+  margin-top: 22%;
+  color: rgb(255, 255, 255);
+  height: 50px !important;
+  width: 50px !important;
+}
+.WebCam {
+  border-radius: 15px;
+  margin-left: 40%;
+}
+.WebCapture {
+  margin-top: 1vh;
+}

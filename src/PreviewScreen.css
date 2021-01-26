@@ -1,0 +1,36 @@
+.imagePreview {
+  margin-left: 40%;
+  border-radius: 15px;
+}
+.RightTopIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: -25.5%;
+  margin-left: 53.8%;
+}
+.RightTopIcon {
+  cursor: pointer;
+  color: white;
+  margin-bottom: 1vh;
+}
+.resetImage {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  margin-left: -16%;
+  margin-top: 1%;
+}
+.sendPic {
+  margin-left: -5%;
+  background-color: #fdfd00;
+  font-size: 13px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  transform: translate(-45%, -50%);
+}
